@@ -8,7 +8,7 @@ export default function EducationSection() {
   return (
     <section
       id="education"
-      className="py-12 bg-gradient-to-b from-muted/10 to-background"
+      className="py-12 bg-gradient-to-b from-muted/10 to-background scroll-mt-24"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
