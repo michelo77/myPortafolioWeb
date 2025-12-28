@@ -30,4 +30,15 @@ El objetivo de este sitio es mostrar mi perfil profesional, las tecnologías que
 - Proyectos
 - Información de contacto
 
+🎯 Propósito del proyecto
+
+Este proyecto fue desarrollado como portafolio personal, con fines académicos y profesionales, orientado a postular a prácticas profesionales y posiciones junior en desarrollo de software.
+
+📬 Contacto
+
+LinkedIn: https://www.linkedin.com/in/michael-navarro-39330228b/
+
+Email: mnavarrocruz06@gmail.com
+
+© 2025 – Michael Navarro
 ---
