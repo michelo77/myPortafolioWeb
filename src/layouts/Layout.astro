@@ -6,14 +6,20 @@ interface Props {
   description?: string;
 }
 
-const { title = "Michael Navarro - Portfolio", description = "Mi Portfolio" } =
-  Astro.props;
+const {
+  title = "Michael Navarro | Desarrollador Full Stack",
+  description = "Portafolio de Michael Navarro, desarrollador Full Stack especializado en JavaScript, React y Node.js.",
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="google-site-verification"
+      content="n8o0aMwmRELGdWWbfi2lCjw_BNr4bAfoGkD1iBC4M5A"
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
