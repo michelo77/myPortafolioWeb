@@ -18,7 +18,7 @@ export default function ProjectsSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🚀 Projects
+            🚀 Proyectos
           </h2>
         </MotionWrapper>
 
@@ -50,6 +50,17 @@ export default function ProjectsSection() {
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <motion.a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link pt-8"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
+                    View on GitHub 🔗
+                  </motion.a>
+                  <motion.a
+                    href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link pt-8"

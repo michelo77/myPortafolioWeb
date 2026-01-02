@@ -90,27 +90,17 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "Credify - Simulador Financiero para la educación",
+    github: "https://github.com/michelo77/simulador_financiero_3.3.git",
+    url: "https://credify-client.vercel.app/",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Plataforma SaaS B2B de simulación financiera educativa ('Fintech Sandbox').",
+      "Arquitectura Full-Stack TypeScript desacoplada (React + NestJS).",
+      "Sistema de Gamificación en tiempo real integrado a transacciones bancarias",
+      "Diseño moderno 'Dark Mode' enfocado en la experiencia de usuario (UX)",
     ],
   },
-  {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
-    description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
-    ],
-  },
+
 ];
 
 export const awards = [
