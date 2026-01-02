@@ -1,0 +1,28 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import GlassHeader from "../../components/GlassHeader";
+import Footer from "../../components/Footer";
+import { projects } from "../../lib/data";
+
+export function getStaticPaths() {
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+---
+
+<Layout title={`${project.title} | Portfolio`}>
+  <GlassHeader client:only="react" />
+  
+  <main class="min-h-screen pt-24 pb-12 px-6">
+    <div class="container max-w-4xl mx-auto">
+      <h1 class="text-3xl font-bold mb-4">{project.title}</h1>
+      <p class="text-muted-foreground mb-8">Más información próximamente...</p>
+    </div>
+  </main>
+
+  <Footer client:only="react" />
+</Layout>

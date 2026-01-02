@@ -90,16 +90,18 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Credify - Simulador Financiero para la educación",
+    title: "Simulador Financiero para la educación",
+    slug: "credify",
     github: "https://github.com/michelo77/simulador_financiero_3.3.git",
     url: "https://credify-client.vercel.app/",
+    imageUrl: "/credify-sistema.png",
     description: [
-      "Plataforma SaaS B2B de simulación financiera educativa ('Fintech Sandbox').",
+      "Plataforma SaaS B2B de simulación financiera educativa.",
       "Arquitectura Full-Stack TypeScript desacoplada (React + NestJS).",
-      "Sistema de Gamificación en tiempo real integrado a transacciones bancarias",
-      "Diseño moderno 'Dark Mode' enfocado en la experiencia de usuario (UX)",
     ],
-  },
+    date: "29/12/2025",
+
+  }
 
 ];
 
